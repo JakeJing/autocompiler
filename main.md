@@ -32,8 +32,6 @@ abstract: "To compile the main.md file, you simply need to type ctrl+r. It will 
 \widowpenalty = 10000
 \displaywidowpenalty = 10000
 
-
-
 \let\eachwordone=\itshape
 \let\eachwordtwo=\small
 \def\gltoffset{0.5ex}
@@ -48,15 +46,14 @@ In order to make things work. You need to have keymapping in you vimrc file.
 
 # Data and Methods
 
+This is the part for method and data. New change.
 
 ## Subsection for data
 
+This is the subsection. To test the file. New
 
 
 # Conclusions
-
-
-This is the final conclusion.
 
 
 
