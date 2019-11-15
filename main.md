@@ -22,7 +22,7 @@ header-includes:
   - \usepackage{upgreek}
 
 
-abstract: "To compile the main.md file, you simply need to type ctrl+r. It will automatically compile the file and convert it into pdf."
+abstract: "To compile the main.md file, you simply need to type ctrl+r. It will automatically compile the file and convert it into pdf. Whenerver you exit the file, it will automatically compile the file."
 ---
 
 
@@ -50,12 +50,11 @@ This is the part for method and data. New change.
 
 ## Subsection for data
 
-This is the subsection. To test the file. New
-
+This is the subsection.
 
 # Conclusions
 
-
+This is the conclusion part. We can test whether it works. The final part. Test for autocompile.
 
 \setlength{\parskip}{0pt}
 \raggedright
