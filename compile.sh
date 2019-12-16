@@ -8,11 +8,26 @@ sed -e 's/\\leavevmode/\\leavevmode\\hangindent=.7cm/g' mainr.tex | gsed -e 's/.
 xelatex -output-driver="xdvipdfmx -E -q" -synctex=0 main.tex
 xelatex -output-driver="xdvipdfmx -E -q" -synctex=0 main.tex
 
-if [ -f mainr.tex -o -f main.out -o -f main.log -o -f main.aux -o -f main.tex ];then
+
+if [ -f mainr.tex ];then
 	rm mainr.tex
+fi
+
+if [ -f main.out ]; then
 	rm main.out
+fi
+
+
+if [ -f main.log ]; then
 	rm main.log
+fi
+
+
+if [ -f main.aux ]; then
 	rm main.aux
+fi
+
+if [ -f main.tex ]; then
 	rm main.tex
 fi
 
